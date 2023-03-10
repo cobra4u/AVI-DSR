@@ -1,16 +1,41 @@
+
+
 <html>
 <head>
 <script src = "./updown.js"> </script>
+<!-- <script> 
+    var value = 0;
+    function myFunction1() {
+        value = value + 1;
+        document.getElementById("computerScore").innerHTML = value;
+
+    }
+    function myFunction2() {
+        value = value - 1;
+        document.getElementById("computerScore").innerHTML = value;
+        if (value < 0) {
+            value = 0;
+            document.getElementById("computerScore").innerHTML = value;
+        }
+
+    }
+    function myFunction3() {
+        value = 0;
+        document.getElementById("computerScore").innerHTML = value;
+
+    }  -->
+</script>
 </head>
 <body>
-<h2>Demo JavaScript in Head</h2>
+<h2>INCREMENT, DECREMENT, RESET</h2>
 
-<p id="demo">A Paragraph</p>
-<b>computer score:</b><p id="computerScore" value="0">-</p>
-<button type="+" onclick="myFunction1()">Try it</button>
+<p >+ to inc, - to dec</p>
+<b>computer score: value </b><p id="computerScore" ></p>
+<button type="button" onclick="myFunction1()">+</button>
 
-<button type="-" onclick="myFunction2()">Try it</button>
+<button type="button" onclick="myFunction2()">-</button>
 
-<button type="reset" onclick="myFunction3()">Try it</button>
+<button type="button" onclick="myFunction3()">RESET</button>
 </body>
 </html>
+<!-- value="0"  next to computer score-->
