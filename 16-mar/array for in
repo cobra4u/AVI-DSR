@@ -1,0 +1,15 @@
+const arr = [1,2,3,4,5,6,7];
+
+for (val in arr ){
+    console.log(val)
+}
+
+for (val of arr){
+    console.log(arr)
+}
+
+
+
+
+
+
