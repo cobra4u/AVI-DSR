@@ -1,0 +1,11 @@
+const obj={
+    name:'HRRR',
+    rno:33,
+    sem:8,
+
+    display : function() {
+        console.log(this.sem)
+    }
+}
+
+obj.display()

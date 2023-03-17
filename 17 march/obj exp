@@ -1,0 +1,19 @@
+let obj = {
+    name : 'dj',
+    rno : 15,
+    sem : 7
+}
+
+let obj2 ={
+    name : 'ttttt',
+    rno: 44,
+    sem: 8
+}
+function showIn(){
+    console.log(this.name);
+  
+    
+}
+
+let x =showIn.bind(obj2);
+x();
